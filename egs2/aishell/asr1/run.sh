@@ -4,7 +4,7 @@
 set -e
 set -u
 set -o pipefail
-
+set -x
 train_set=train
 valid_set=dev
 test_sets="dev test"

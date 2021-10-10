@@ -465,7 +465,7 @@ class ASRTask(AbsTask):
             token_list=token_list,
             **args.model_conf,
         )
-
+        import ipdb;ipdb.set_trace()
         # FIXME(kamo): Should be done in model?
         # 9. Initialize
         if args.init is not None:
